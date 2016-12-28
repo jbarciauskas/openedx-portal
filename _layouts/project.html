@@ -1,0 +1,23 @@
+---
+layout: blog
+script: |
+  <!-- Script to Activate the Carousel -->
+  $('.carousel').carousel({
+      interval: 5000 //changes the speed
+  });
+  
+---
+<!-- Portfolio Item Row -->
+<div class="row">
+	<div class="col-md-8">{% include portfolio/carousel.html %}</div>
+	<div class="col-md-4">
+		<h3>Project Description</h3>
+		{{content}}
+	</div>
+	
+	<script>{% if page.video %}{% include video-embed.html %}{% endif %}</script>
+	
+</div>
+<!-- /.row -->
+
+{% include portfolio/related-project.html %}
