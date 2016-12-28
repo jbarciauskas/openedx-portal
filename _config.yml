@@ -14,7 +14,7 @@ category_dir: 'blog'
 # Theme Settings
 modern:
   blog-index-style: '1'
-  portfolio-index-style: '1'
+  portfolio-index-style: '2'
   organization: 'Open edX'
   defaults: 
     blog:
