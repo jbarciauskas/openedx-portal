@@ -16,7 +16,7 @@ branch: develop
 repo: 'jbarciauskas/openedx-portal'
 
 relative_source: .
-destination: .
+destination: build
 
 # Theme Settings
 modern:
