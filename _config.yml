@@ -6,8 +6,8 @@ description: >
     as well as hundreds of high-quality education sites around the world. EdX 
     was started by Harvard and MIT in 2012, and is tasked with the mission of 
     providing access to quality education for everyone, everywhere.
-baseurl: "https://jbarciauskas.github.io/openedx-portal" 
-url: "https://jbarciauskas.github.io/openedx-portal" 
+baseurl: "/openedx-portal" 
+url: "https://jbarciauskas.github.io/" 
 repository: 'jbarciauskas/openedx-portal'
 category_dir: 'blog'
 
@@ -64,6 +64,8 @@ exclude:
   - vendor
   - log
 encoding: "utf-8"
+sass:
+  -compress: true
 
 # Collection Settings
 collections:
