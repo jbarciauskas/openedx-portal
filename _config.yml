@@ -15,7 +15,7 @@ username: jbarciauskas
 branch: develop
 repo: 'openedx-portal'
 
-relative_source: .
+relative_source: openedx-portal
 destination: build
 
 # Theme Settings
