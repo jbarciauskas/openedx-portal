@@ -11,6 +11,13 @@ url: "https://jbarciauskas.github.io/openedx-portal"
 repository: 'jbarciauskas/openedx-portal'
 category_dir: 'blog'
 
+username: jbarciauskas
+branch: develop
+repo: 'jbarciauskas/openedx-portal'
+
+relative_source: .
+destination: .
+
 # Theme Settings
 modern:
   blog-index-style: '1'
