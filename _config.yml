@@ -13,7 +13,7 @@ category_dir: 'blog'
 
 username: jbarciauskas
 branch: develop
-repo: 'jbarciauskas/openedx-portal'
+repo: 'openedx-portal'
 
 relative_source: .
 destination: build
